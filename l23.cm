@@ -1,0 +1,34 @@
+Group
+  signature CHECK
+  structure Check
+  structure Test
+  structure ReadFile
+  structure Token
+  structure Scan
+  structure Type
+  structure L23RR
+  structure Parse
+  structure Subst
+  structure RecordCheck
+  structure TypeEnv
+  structure TypeCheck
+  structure Eval
+  structure Compile
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+  check.sig
+  check.sml
+  test.sml
+  read-file.sml
+  token.sml
+  scan.sml
+  type.sml
+  l23rr.sml
+  parse.sml
+  subst.sml
+  record-check.sml
+  type-env.sml
+  typecheck.sml
+  eval.sml
+  compile.sml
